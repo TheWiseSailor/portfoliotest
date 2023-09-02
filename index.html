@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+  <main>
+
+    <!--
+            - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Applemoji.png" alt="Joseph Rudasill" id="Applemoji" width="60">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Joseph Rudasill">Joseph Rudasill</h1>
+
+          <p class="title">FullStack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="https://img.icons8.com/?size=1x&id=xLIkjgcmFOsC&format=png" alt="mail" height="30"
+                name="mail-outline"></img>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="" class="contact-link">Rudasilljay@gmail.com</a>
+            </div>
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="https://img.icons8.com/?size=1x&id=3nOZtpH7KQrP&format=png" alt="location" height="30"
+                name="location-outline" "></img>
+            </div>
+
+            <div class=" contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Charlotte, NC</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <a href="https://discordapp.com/users/389945057345667077">
+            <img src="https://cdn-icons-png.flaticon.com/128/2626/2626288.png" alt="discord" width="65">
+          </a>
+
+          <a href="https://github.com/TheWiseSailor">
+            <img src="https://cdn-icons-png.flaticon.com/128/1051/1051326.png" alt="github" width="65">
+          </a>
+          <a href="https://www.snapchat.com/add/asianstudmuffin?share_id=gTwL0A4CTtWL7ns+pfxyvg&locale=en_US">
+            <img src="https://cdn-icons-png.flaticon.com/128/3670/3670166.png" alt="snapchat" width="65">
+          </a>
+          <a href="https://www.instagram.com/joseph_rudasill_">
+            <img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png" alt="instagram" width="65">
+          </a>
+          <a href="https://www.linkedin.com/in/joseph-rudasill-2565a41ba/">
+            <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="linkedin" width="65">
+          </a>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+            - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+              - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+              - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Being a Front-End Developer with a proven record of leveraging excellent interpersonal skills to cultivate
+            strong relationships and drive collaborative efforts across diverse teams. Adept in crafting user-friendly
+            interfaces through precise verbal and written communication, while prioritizing tasks and adhering to
+            timelines for optimal project outcomes.
+          <p></p>
+          <br />Having much commitment to performance improvement, consistently enhancing UI designs and front-end
+          maintenance. Possessing an unwavering positive attitude, I bring a passion for front-end development and a
+          keen eye for detail, dedicated to elevating user experiences and achieving project success.
+          I am very sociable person to be around and have ideal communications for an effortless project amongst
+          others </p>
+        </section>
+
+
+        <!--
+                - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  Love taking pictures of beautiful scenic places.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+              - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education pt.2</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">UNCC Fullstack Bootcamp</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                Having taken this Bootcamp, this gave me knowledge about the basics of javascript and many Backend
+                knowledge as well
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">A.S. Degree</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                I have managed to finally obtain my A.S. Degree even though I had actually finished all classes in
+                December of 2022.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+
+            </div>
+
+            <h3 class="h3">Education Pt.1</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High-School Graduation</h4>
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                Having just now graduated high-school and got my diploma. I now faced the decision to either have my
+                jawbone
+                surgery in December, or postpone it and continue classes.
+                <br /> I ultimately decided to get the surgery out of the way first.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Passion</h4>
+
+              <span>2018</span>
+
+              <p class="timeline-text">
+                This was the year I had a passion for computers, having learnt that one can be profficient in a field
+                that which they love. So I strived to get my A.S. Degree.
+
+                <br /> I have had experience in coding with html, and css since 2017, but never had a serious focus on
+                making it my actual profession until a couple years later
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Employment</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TJX Companies</h4>
+
+              <span>2022-2023</span>
+
+              <p class="timeline-text">
+                Processing freight and preparing backroom for incoming freight.
+                <br />
+                Maintained neat, safe and orderly workspace to prevent accidents and injuries.
+                <br />
+                Greeted customers and retrieved requested products to drive satisfaction.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kebos/Cashier</h4>
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                I worked at Kebo's until December due to a major jawbone surgery I had.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pfeifer Cafe</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+
+                Worked as a table busser and did many other positions during my employment. Overall great people to
+                work
+                for but left due to pay.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Family Car Rental</h4>
+
+              <span>2019</span>
+
+              <p class="timeline-text">
+
+                Took on a summer job washing cars, was really fun, but had to resign due to school and college.
+              </p>
+
+            </li>
+
+            </li>
+          </ol>
+
+        </section>
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80"></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="90"></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="85"></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend</h5>
+                <data value="80"></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Backend</h5>
+                <data value="20"></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:20%;"></div>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+              - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <div class="filter-select-box">
+
+          <button class="filter-select" data-select>
+          </button>
+        </div>
+
+
+        <ul class="project-list">
+          <li class="project-item active" data-filter-item data-category="web design">
+            <a href="https://thewisesailor.github.io/Password-Generator/" target="_blank" rel="noopener noreferrer">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/password gen.png" alt="Password Generator" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Password Generator</h3>
+
+              <p class="project-category">Front End</p>
+
+            </a>
+          </li>
+          <li class="project-item active" data-filter-item data-category="web development">
+            <a href="https://thewisesailor.github.io/Horiseon/" target="_blank" rel="noopener noreferrer">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/horizeon.png" alt="horiseon" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Horiseon</h3>
+
+              <p class="project-category">Web development</p>
+
+            </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="Front End">
+            <a href="https://github.com/JHeeebert/marvel-flicks" target="_blank" rel="noopener noreferrer">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/marvel.png" alt="project 1" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Project 1</h3>
+
+              <p class="project-category">Front End</p>
+
+            </a>
+          </li>
+          <li class="project-item active" data-filter-item data-category="applications">
+            <a href="https://thewisesailor.github.io/Weather-DashBoard/" target="_blank" rel="noopener noreferrer">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/weather dashboard.png" alt="weather" loading="lazy">
+              </figure>
+              <h3 class="project-title">Weather Dashboard</h3>
+              <p class="project-category">Front End</p>
+            </a>
+          </li>
+
+
+
+
+
+
+          <li class="project-item active" data-filter-item data-category="web design">
+            <a href="https://github.com/TheWiseSailor/JR-Photography-v2" target="_blank" rel="noopener noreferrer">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/Portfolio jr photography.png" alt="J&R.CO" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">J&R.CO</h3>
+
+              <p class="project-category">Front End</p>
+
+            </a>
+          </li>
+          <li class="filter-item  active" data-filter-item data-category="Fullstack">
+            <a href="https://github.com/BrayMurph/JABIS">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/venues.png" alt="metaspark" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Project 2</h3>
+
+              <p class="project-category">FullStack</p>
+
+            </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="web development">
+            <a href="https://note-taker-69-f0898b1dc611.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/Notetaker.png" alt="Note Taker" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Note Taker</h3>
+
+              <p class="project-category">Fullstack</p>
+
+            </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="applications">
+            <a href="https://thewisesailor.github.io/Work-Day-Scheduler/" target="_blank" rel="noopener noreferrer">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/workday scheduler.png" alt="Work day scheduler" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Work Day Scheduler</h3>
+
+              <p class="project-category">Front End</p>
+
+            </a>
+          </li>
+          <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Project 3</h3>
+
+              <p class="project-category">Fullstack</p>
+
+            </a>
+          </li>
+
+        </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+      <!--
+              - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d324712.8240672061!2d-80.94507612912154!3d35.227085802691866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569f4f6b611737%3A0x8cf4e4f51d3a4a99!2sCharlotte%2C%20NC%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608809119!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+              - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+
+  </body>
+
+</html>
